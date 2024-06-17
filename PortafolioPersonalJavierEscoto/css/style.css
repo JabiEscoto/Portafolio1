@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: "Poppins", sans-serif;
+	line-height: 1.5;
+	background-color: #F9F9F9;
+}
+
+header{
+	background-color: #BAC8D9;
+	padding: 10px 0;
+}
+
+header img{
+	margin-left: 20px;
+}
+	
+header a{
+font-family: "Poppins", sans-serif;
+	font-weight: 600 !important;
+	font-size: 18px !important;
+}
+
+#sobre_mi_hero img {
+max-width: 80%;
+height: auto;
+margin-left: 12%;
+align-content: center;
+margin-bottom: 25px;
+
+}
+
+.text_hero{
+text-align: center;
+margin-top: 10%;
+}
+
+#sobre_mi_hero h2{
+color: #F24E29;
+font-family: Poppins;
+font-size: 90px;
+font-style: normal;
+font-weight: 800;
+line-height: 60%;
+}
+
+#sobre_mi_hero h1{
+color: #BAC8D9;
+font-family: Poppins;
+font-size: 45px;
+font-weight: 800;
+}
+
+#sobre_mi_hero p{
+color: #F24E29;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+letter-spacing: 0.96px;
+text-shadow: 1px 1px 0px black, -1px 1px 0px black, 1px -1px 0px black, -1px -1px 0px black;
+}
+
+#sobre_mi_hero{
+background-image: url("../img/background room.png");
+background-position: top center;
+background-size: cover;
+padding-top: 6%;
+}
+
+#bio p {
+padding: 80px;
+text-align: center;
+color: #F9F9F9;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+letter-spacing: 0.96px;
+}
+
+#bio{
+padding: 20px 40px;
+background-color:#F26E50;
+}
+
+.btn-dark {
+  background-color: #0D0D0D;
+  border: 2px solid #556573;
+  border-radius: 40px;
+  color: #FFFFFF;
+  padding: 10px 20px;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 500;
+margin-bottom: 28px;
+
+}
+
+.btn-dark:hover{
+  background-color: #0D0D0D;
+  border: 2px solid #556573;
+  border-radius: 40px;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  font-size: 22px;
+transition: font-size 0.3s;
+font-family: Poppins;
+font-weight: 500;
+}
+
+footer{
+	background-color: #BAC8D9;
+	padding: 8px 0;
+	text-align: center;
+	padding-top: 25px;
+	color: #0D0D0D;
+}
+
+#ilustracion h1{
+color: #f8f8f8;
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+text-transform: uppercase;
+text-align: center;
+}
+
+
+#ilustracion h2{
+color: #C3C3C3;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+text-align: center;
+}
+
+#ilustracion{
+	padding-top: 10%;
+	background-color: #F8F1F3;
+	background-image: url("../img/escena 1 planeta al espacio.png");
+	background-position: center;
+	background-size:  cover;
+	
+}
+
+#ilustracion img{
+	margin-bottom: 15px;
+}
+
+
+#interfaces h1{
+color: #f8f8f8;
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+text-transform: uppercase;
+text-align: center;
+}
+
+
+#interfaces h2{
+color: #0D0D0D;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+text-align: center;
+}
+
+#interfaces h3{
+color: #f8f8f8;
+font-family: Poppins;
+font-size: 26px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+text-align: center;
+}
+
+#interfaces img{
+	margin-bottom: 15px;
+}
+
+#interfaces{
+	padding-top: 10%;
+	background-color: #F6F1F8;
+background-image: url("../img/bg castillo.png");
+	background-position: center;
+	background-size: cover;
+	
+		
+}
+
+#animacion h1{
+color: #0D0D0D;
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+text-transform: uppercase;
+text-align: center;
+}
+
+#animacion{
+	background-image: url("../img/filmkmaking bg.webp");
+	background-position: center;
+	background-size: cover;
+	padding: 6% 0;
+}
+
+#contactos img{
+width: 12%;
+height: auto;
+margin-bottom: 18px;
+}	
+
+#contactos{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-image: url("../img/time line.PNG");
+	background-position: center;
+	background-size: cover;	
+}
+
+
+.contact-list {
+  list-style-type: none;
+}
+
+
+.contact-text {
+color: #f8f8f8;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+letter-spacing: 0.96px;
+margin-left: 5%;
+}
+
+.contact-link {
+  text-decoration: none;
+}
+
+.contact-text:hover {
+  color: #f8f8f8;
+}
+
+#contactos h1{
+color: #f8f8f8;
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+text-transform: uppercase;
+text-align: center;
+}
+
+
+#contactos h2{
+color: #f8f8f8;
+font-family: Poppins;
+font-size: 35px;
+font-weight: 700;
+text-transform: uppercase;
+text-align: center;
+margin-top: 20px;
+}
+ .map-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 75%;
+      overflow: hidden;
+ }
+
+   
+.map-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+}
+
+#programas img {
+      max-width: 50%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+margin-bottom: 12px;
+	
+    }
+
+#programas{
+	padding: 6% 0;
+	background-image: url("../img/sketch robot.png");
+	background-position: center;
+	background-size: cover;	
+}
+
+#programas h1{
+color: #f8f8f8;
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+text-transform: uppercase;
+text-align: center;
+}
+
+
+
+#programas ul li{
+color: #f8f8f8;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.96px;
+}
+
+
+#programas p{
+color: #f8f8f8;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0.96px;
+text-align: justify;
+}
+
+.forms{
+	box-shadow: 0px 0px 30px 5px #ddd;
+	background-color: rgba(0,0,0,0.70);
+	border-radius: 10px;
+	padding: 40px 60px;
+}
+
+.form-control{
+	background-color: #FFFFFF;
+	padding: 20px 20px;
+	margin: 10px;
+}
+
+
+.form-control::placeholder{
+	color: #8870AA;
+}
+
+.enviar-btn {
+    width: 100%;
+    background-color: grey;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.enviar-btn:hover {
+    background-color: #F24E29;
+}
+
+.formulario{
+	padding-top: 4%;
+	background-color: rgb(0,0,#0,1.0);
+}
+
